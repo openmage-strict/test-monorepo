@@ -31,15 +31,10 @@ jobs:
     steps:
       -   uses: actions/checkout@v3
 
-      - name: Mark github workspace as safe
-        run: |
-          git config --global --add safe.directory /github/workspace
-          git config --global --add safe.directory /tmp/monorepo_split/build_directory
-
       # no tag
       -
         if: "!startsWith(github.ref, 'refs/tags/')"
-        uses: "symplify/monorepo-split-github-action@2.1"
+        uses: "jonnitto/monorepo-split-github-action@5d896ffadc77de340b07e6b6ac10280ae0eefa77"
         with:
           # ↓ split "packages/easy-coding-standard" directory
           package_directory: 'packages/${{ matrix.package.path }}'
@@ -51,7 +46,7 @@ jobs:
       # with tag
       -
         if: "startsWith(github.ref, 'refs/tags/')"
-        uses: "symplify/monorepo-split-github-action@2.1"
+        uses: "jonnitto/monorepo-split-github-action@5d896ffadc77de340b07e6b6ac10280ae0eefa77"
         with:
           tag: ${GITHUB_REF#refs/tags/}
 
