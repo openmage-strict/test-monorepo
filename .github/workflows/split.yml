@@ -25,7 +25,7 @@ jobs:
             repo: 'module-tag-test'
           -
             path: 'module-tax'
-            repo: 'module-tax-test'
+            repo: 'module-tax'
 
     steps:
       -   uses: actions/checkout@v3
