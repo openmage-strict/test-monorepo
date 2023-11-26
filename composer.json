@@ -1,0 +1,15 @@
+{
+    "name": "openmage-strict/openmage-mono-test",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*",
+        "openmage-strict/module-catalog": "*",
+        "openmage-strict/module-customer": "*"
+    },
+    "require-dev": {
+        "symplify/monorepo-builder": "^11.2"
+    },
+    "replace": {
+        "openmage-strict/module-tag": "self.version",
+        "openmage-strict/module-tax": "self.version"
+    }
+}

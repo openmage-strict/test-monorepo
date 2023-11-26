@@ -1,0 +1,6 @@
+src/app/code/core/Mage/Tax/                                     app/code/core/Mage/Tax/
+src/app/design/adminhtml/default/default/layout/tax.xml         app/design/adminhtml/default/default/layout/tax.xml
+src/app/design/adminhtml/default/default/template/tax/          app/design/adminhtml/default/default/template/tax/
+src/app/design/frontend/base/default/template/tax/              app/design/frontend/base/default/template/tax/
+src/app/etc/modules/Mage_Tax.xml                                app/etc/modules/Mage_Tax.xml
+src/app/locale/en_US/Mage_Tax.csv                               app/locale/en_US/Mage_Tax.csv

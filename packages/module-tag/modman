@@ -1,0 +1,7 @@
+src/app/code/core/Mage/Tag/                                     app/code/core/Mage/Tag/
+src/app/design/adminhtml/default/default/layout/tag.xml         app/design/adminhtml/default/default/layout/tag.xml
+src/app/design/adminhtml/default/default/template/tag/          app/design/adminhtml/default/default/template/tag/
+src/app/design/frontend/base/default/layout/tag.xml             app/design/frontend/base/default/layout/tag.xml
+src/app/design/frontend/base/default/template/tag/              app/design/frontend/base/default/template/tag/
+src/app/etc/modules/Mage_Tag.xml                                app/etc/modules/Mage_Tag.xml
+src/app/locale/en_US/Mage_Tag.csv                               app/locale/en_US/Mage_Tag.csv
